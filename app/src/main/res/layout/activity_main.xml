@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/laptop" />
+
+    <TextView
+        android:id="@+id/udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#2E5B89"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:padding="7dp"
+        android:text="Udacity" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#2E5B89"
+        android:layout_centerInParent="true"
+        android:paddingBottom="7dp"
+        android:text="2465 Latham St Mountain View, CA 94043" />
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/address"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#2E5B89"
+        android:text="650-555-5555" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#2E5B89"
+        android:paddingTop="30dp"
+        android:text="www.udacity.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#2E5B89"
+        android:text="“There are always new skills to learn, new challenges to overcome, new ways to succeed. The only guarantee of failure is if you don’t get started in the first place.”" />
+
+</RelativeLayout>
